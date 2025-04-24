@@ -1,0 +1,111 @@
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #111;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta {
+    background-color: gold;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+.about, .services, .contact {
+    background-color: #1a1a1a;
+    margin: 20px 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.services ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px;
+    background-color: gold;
+    border: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    color: #aaa;
+}
+
+.el-paso-gallery {
+    background-color: #101010;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.el-paso-gallery h2 {
+    font-size: 2rem;
+    color: gold;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
